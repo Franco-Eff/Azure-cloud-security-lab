@@ -38,20 +38,20 @@ This project is designed to demonstrate practical knowledge relevant to cloud ad
 
 The lab uses a single Azure Resource Group to organize its resources.
 
-**Resource Group:** `TD-Security-RG`
+**Resource Group:** `Proj-Security-RG`
 
 **Region:** East US 2
 
 ### Network Design
 
-**Virtual Network:** `TD-VNet`
+**Virtual Network:** `Proj-VNet`
 
 **Address Space:** `10.10.0.0/16`
 
 | Subnet | Address Range | Purpose |
 |---|---|---|
-| TD-Employee-Subnet | 10.10.1.0/24 | Employee network |
-| TD-Server-Subnet | 10.10.2.0/24 | Server network |
+| Proj-Employee-Subnet | 10.10.1.0/24 | Employee network |
+| Proj-Server-Subnet | 10.10.2.0/24 | Server network |
 
 Each subnet uses a Network Security Group to control inbound and outbound traffic.
 
@@ -61,9 +61,9 @@ Microsoft Entra ID is used to organize users according to their responsibilities
 
 Planned security groups:
 
-- `TD-IT-Admins`
-- `TD-Security-Analysts`
-- `TD-Employees`
+- `Proj-IT-Admins`
+- `Proj-Security-Analysts`
+- `Proj-Employees`
 
 Azure RBAC assignments will provide different levels of access based on each group's responsibilities.
 
