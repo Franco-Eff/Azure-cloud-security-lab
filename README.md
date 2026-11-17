@@ -4,7 +4,7 @@
 
 This project is a hands-on Azure Cloud Security Lab designed to demonstrate fundamental cloud administration, identity management, network security, governance, and security monitoring.
 
-The lab uses a fictional organization called **TechDefense (TD)** to simulate a small business environment. The goal is to build a secure Azure environment using Microsoft Azure services while applying security best practices and testing the effectiveness of the configurations.
+The lab uses a fictional organization called **Proj** to simulate a small business environment. The goal is to build a secure Azure environment using Microsoft Azure services while applying security best practices and testing the effectiveness of the configurations.
 
 This project is designed to demonstrate practical knowledge relevant to cloud administration, cybersecurity, and the Microsoft AZ-104 Azure Administrator certification.
 
@@ -135,4 +135,4 @@ Detailed configuration guides, explanations, and testing results will be organiz
 - Security Testing
 - Architecture
 
-Screenshots will be included to demonstrate the configurations performed in the Azure Portal.
+
